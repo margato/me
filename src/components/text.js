@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { Colors } from '../resources'
 import { isMobile } from 'react-device-detect'
-
 const textColors = {
   primary: Colors.primary,
   secondary: Colors.secondary,
@@ -29,12 +28,10 @@ const Item = styled.li`
   }
 `
 const Link = styled.span`
-  list-style: none;
   font-family: 'Press Start 2P';
   color: ${props => textColors[props.type || 'default']};
   text-shadow: 0px 2px 0px gray;
-  padding: 0 1rem;
-  margin-top: 20px;
+  margin: 0;
   &:hover {
     text-shadow: 0px 2px 0px ${Colors.primaryDarker};
     color: ${Colors.secondary};

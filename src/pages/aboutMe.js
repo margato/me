@@ -21,27 +21,25 @@ function AboutMe () {
       </Container>
       <Container>
         <Text style={{ textAlign: 'center' }}>
-          When I was a child, drawing with
+          When I was a child, drawing with&nbsp;
           <SelectButton
             sameLine
             link='https://en.wikipedia.org/wiki/Logo_(programming_language)'
           >Logo
-          </SelectButton>was my first contact with programming logics.
-          Later in high school, I started developing
+          </SelectButton>&nbsp;was my first contact with programming logics.
+          Later in high school, I started developing&nbsp;
           <SelectButton
             sameLine
             link='https://bukkit.org/'
           >
             Minecraft server plugins
-          </SelectButton>
-          with
+          </SelectButton>&nbsp;with&nbsp;
           <SelectButton
             sameLine
             link='https://github.com/SkriptLang/Skript'
           >
            Skript
-          </SelectButton>
-          and later with Java!
+          </SelectButton>&nbsp;and later with Java!
         </Text>
       </Container>
       <Container>
@@ -51,7 +49,7 @@ function AboutMe () {
       </Container>
       <Container>
         <MenuContainer>
-          <SelectButton link='/' openNewTab={false}>Back</SelectButton>
+          <SelectButton link='/' openNewTab={false}>Go back</SelectButton>
         </MenuContainer>
       </Container>
     </>

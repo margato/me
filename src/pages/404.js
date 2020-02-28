@@ -13,7 +13,7 @@ function NotFound () {
       </Container>
       <Container>
         <MenuContainer>
-          <SelectButton link='/' openNewTab={false}>Back</SelectButton>
+          <SelectButton link='/' openNewTab={false}>Go back</SelectButton>
         </MenuContainer>
       </Container>
     </>
