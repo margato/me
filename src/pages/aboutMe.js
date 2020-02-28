@@ -21,25 +21,22 @@ function AboutMe () {
       </Container>
       <Container>
         <Text style={{ textAlign: 'center' }}>
-          When I was a child, drawing with&nbsp;
+          When I was a child, drawing with
           <SelectButton
+            style={{ margin: '1rem' }}
             sameLine
             link='https://en.wikipedia.org/wiki/Logo_(programming_language)'
           >Logo
-          </SelectButton>&nbsp;was my first contact with programming logics.
-          Later in high school, I started developing&nbsp;
+          </SelectButton>was my first contact with programming logics.
+          Later in high school, I started developing Minecraft server plugins
+          with
           <SelectButton
-            sameLine
-            link='https://bukkit.org/'
-          >
-            Minecraft server plugins
-          </SelectButton>&nbsp;with&nbsp;
-          <SelectButton
+            style={{ margin: '1rem' }}
             sameLine
             link='https://github.com/SkriptLang/Skript'
           >
            Skript
-          </SelectButton>&nbsp;and later with Java!
+          </SelectButton>and later with Java!
         </Text>
       </Container>
       <Container>

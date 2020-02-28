@@ -32,6 +32,7 @@ const Link = styled.span`
   color: ${props => textColors[props.type || 'default']};
   text-shadow: 0px 2px 0px gray;
   margin: 0;
+  padding: 0;
   &:hover {
     text-shadow: 0px 2px 0px ${Colors.primaryDarker};
     color: ${Colors.secondary};
