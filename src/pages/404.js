@@ -8,7 +8,7 @@ const NotFound = () => (
       <Title>Page not found!</Title>
     </Container>
     <Container>
-      <Text>Content not available</Text>
+      <Text style={{textAlign: 'center'}}>Content not available</Text>
     </Container>
   </>
 )
