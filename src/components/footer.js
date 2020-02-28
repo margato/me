@@ -2,7 +2,7 @@
 import React from 'react'
 import { SelectButton, MenuContainer } from './index'
 
-function Footer ({ link, soundId, children }) {
+function Footer () {
   return (
     <>
       <MenuContainer>

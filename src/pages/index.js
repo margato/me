@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Container, SelectButton, Title, MenuContainer, Footer } from '../components'
+import { Container, SelectButton, Title, MenuContainer, Footer } from '../components'
 import '../resources/main.css'
 
 const IndexPage = () => (
@@ -11,8 +11,9 @@ const IndexPage = () => (
       <MenuContainer>
         <SelectButton link='https://github.com/margato'>GitHub</SelectButton>
         <SelectButton link='https://www.linkedin.com/in/margato/'>Linkedin</SelectButton>
-        <SelectButton error link='/404'>Blog</SelectButton>
-        <SelectButton link='https://github.com/margato/me'>Exit</SelectButton>
+        <SelectButton link='https://www.instagram.com/osvaldomargato/'>Instagram</SelectButton>
+        <SelectButton openNewTab={false} error link='/404'>Blog</SelectButton>
+        <SelectButton openNewTab={false} link='/aboutMe'>About me</SelectButton>
       </MenuContainer>
     </Container>
     <Footer />

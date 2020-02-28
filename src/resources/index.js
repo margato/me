@@ -7,21 +7,16 @@ export const Colors = {
   white: '#fff'
 }
 
+/* eslint-disable */
 export const Sounds = {
   select: [
     new Audio(window.location.origin + '/resources/sounds/mus_note1.wav'),
-    new Audio(window.location.origin + '/resources/sounds/mus_note2.wav'),
-    new Audio(window.location.origin + '/resources/sounds/mus_note3.wav'),
-    new Audio(window.location.origin + '/resources/sounds/mus_note4.wav')
   ],
   click: [
-    new Audio(window.location.origin + '/resources/sounds/mus_f_laugh.wav'),
-    new Audio(window.location.origin + '/resources/sounds/snd_wonderfulidea.wav'),
-    new Audio(window.location.origin + '/resources/sounds/mus_ohyes.ogg'),
-    new Audio(window.location.origin + '/resources/sounds/mus_yeah.wav')
+    new Audio(window.location.origin + '/resources/sounds/mus_create.wav')
   ],
   error: [
     new Audio(window.location.origin + '/resources/sounds/snd_vaporized.wav')
-
   ]
 }
+/* eslint-enable */

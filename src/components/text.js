@@ -13,7 +13,7 @@ const Text = styled.text`
   color: ${props => textColors[props.type || 'default']};
   text-shadow: 0px 2px 0px gray;
   margin: 0 auto;
-
+  line-height:30px;
 `
 const Item = styled.li`
   list-style: none;
@@ -22,6 +22,19 @@ const Item = styled.li`
   text-shadow: 0px 2px 0px gray;
   margin-top: 20px;
 
+  &:hover {
+    text-shadow: 0px 2px 0px ${Colors.primaryDarker};
+    color: ${Colors.secondary};
+    cursor: pointer;
+  }
+`
+const Link = styled.span`
+  list-style: none;
+  font-family: 'Press Start 2P';
+  color: ${props => textColors[props.type || 'default']};
+  text-shadow: 0px 2px 0px gray;
+  padding: 0 1rem;
+  margin-top: 20px;
   &:hover {
     text-shadow: 0px 2px 0px ${Colors.primaryDarker};
     color: ${Colors.secondary};
@@ -41,4 +54,4 @@ const Title = styled(Text)`
   line-height: ${isMobile ? '35px' : '33px'}
 `
 
-export { Text, Title, Item }
+export { Text, Title, Item, Link }
