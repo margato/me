@@ -26,7 +26,7 @@ function AboutMe () {
             sameLine
             link='https://en.wikipedia.org/wiki/Logo_(programming_language)'
           >Logo
-          </SelectButton> was my first contact with programming logics.
+          </SelectButton>was my first contact with programming logics.
           Later in high school, I started developing
           <SelectButton
             sameLine
