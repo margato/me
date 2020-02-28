@@ -29,6 +29,7 @@ function SelectButton ({ style, error, link, soundId, children, showIndicator = 
   }, [currentSound])
 
   function handleMouseOut () {
+    currentSound.pause()
     currentSound.currentTime = 0
     setIndicatorVisible(false)
     setSound(null)
