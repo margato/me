@@ -16,7 +16,9 @@ const IndexPage = () => (
         <SelectButton openNewTab={false} error link='/404'>Blog</SelectButton>
       </MenuContainer>
     </Container>
-    <Footer />
+    <Container>
+      <Footer />
+    </Container>
   </>
 )
 
